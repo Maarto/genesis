@@ -8,7 +8,7 @@ import cfg from '../config.json'
 
 let configEnv = {
     token: cfg.botToken,
-    mongoURI: cfg.db_url,
+    mongoURI: "NODB",
     prefix: cfg.botPrefix
 }
 

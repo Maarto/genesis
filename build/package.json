@@ -1,0 +1,32 @@
+{
+  "name": "genesisbot",
+  "version": "1.0.0",
+  "description": "Discord Bot for Genesis",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dev": "ts-node-dev src/index.ts",
+    "dev": "nodemon build/index.js",
+    "build": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maarto/genesis.git"
+  },
+  "author": "MartoOo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maarto/genesis/issues"
+  },
+  "homepage": "https://github.com/Maarto/genesis#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.8"
+  }
+}

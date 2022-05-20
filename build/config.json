@@ -1,0 +1,7 @@
+{
+    "botToken": "BOT-PREFIX",
+    "botPrefix": "g!",
+    "Image": "https://cdn.discordapp.com/attachments/975639336320106516/975639495959527474/GenesisLogotipo.png",
+    "reportChannelID": "CHANNEL-ID",
+    "suggestChannelID": "CHANNEL-ID"
+}
